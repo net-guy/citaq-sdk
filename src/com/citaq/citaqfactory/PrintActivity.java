@@ -1,11 +1,5 @@
 package com.citaq.citaqfactory;
 
-import java.io.IOException;
-import java.security.InvalidParameterException;
-import java.util.HashMap;
-import java.util.Locale;
-import java.util.Map;
-
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
@@ -30,6 +24,12 @@ import com.citaq.util.Command;
 import com.printer.util.CallbackUSB;
 import com.printer.util.DataQueue;
 import com.printer.util.USBConnectUtil;
+
+import java.io.IOException;
+import java.security.InvalidParameterException;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
 
 public class PrintActivity extends SerialPortActivity{
 	private static final String TAG  ="PrintActivity";

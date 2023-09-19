@@ -1,16 +1,14 @@
 package com.citaq.util;
 
-import java.io.IOException;
+import android.graphics.Bitmap;
+import android.graphics.Color;
+import android.text.format.Time;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import android.graphics.Bitmap;
-import android.graphics.Color;
-import android.text.format.Time;
-import android.view.View;
 
 public class Command {
 	public static String enablebuzzer = "1F 1B 1F 50 40";

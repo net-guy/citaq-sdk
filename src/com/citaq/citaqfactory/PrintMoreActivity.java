@@ -1,35 +1,21 @@
 package com.citaq.citaqfactory;
 
-import java.io.IOException;
-import java.security.InvalidParameterException;
-import java.util.HashMap;
-import java.util.Map;
-
-import com.citaq.citaqfactory.SerialPortActivity.ReadThread;
-import com.citaq.util.Command;
-import com.printer.util.CallbackUSB;
-import com.printer.util.USBConnectUtil;
-
-import android.app.Activity;
-import android.app.Dialog;
-import android.content.Context;
-import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.os.RemoteException;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.AdapterView.OnItemSelectedListener;
+
+import com.citaq.util.Command;
+import com.printer.util.USBConnectUtil;
+
+import java.io.IOException;
+import java.security.InvalidParameterException;
 
 public class PrintMoreActivity extends SerialPortActivity{
 	private static final String TAG  ="PrintActivityMore";

@@ -1,13 +1,13 @@
 package com.citaq.citaqfactory;
 
 
-import com.citaq.util.LEDControl;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ToggleButton;
+
+import com.citaq.util.LEDControl;
 
 public class LedActivity extends Activity {
 

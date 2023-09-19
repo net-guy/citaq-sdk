@@ -1,12 +1,12 @@
 package com.citaq.util;
 
+import com.example.gpioled.PosCtrl;
+
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
-
-import com.example.gpioled.PosCtrl;
 
 public class LEDControl extends Thread {
 	

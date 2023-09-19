@@ -1,8 +1,8 @@
 package com.printer.util;
 
-import java.util.LinkedList;
-
 import android.util.Log;
+
+import java.util.LinkedList;
 
 public class DataQueue {
 	private static final String TAG = "DataQueue";

@@ -1,13 +1,11 @@
 package com.citaq.citaqfactory;
 
-import com.citaq.util.USBPDUtil;
-
 import android.content.Context;
 import android.hardware.usb.UsbManager;
 import android.os.AsyncTask;
-import android.view.View;
-import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import com.citaq.util.USBPDUtil;
 
 /**  
  * 生成该类的对象，并调用execute方法之后  

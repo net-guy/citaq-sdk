@@ -1,14 +1,5 @@
 package com.citaq.citaqfactory;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import com.citaq.util.PingLooperThread;
-import com.citaq.util.PingLooperThread.Callbak;
-import com.citaq.util.WifiAdmin;
-
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -31,16 +22,25 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+
+import com.citaq.util.PingLooperThread;
+import com.citaq.util.PingLooperThread.Callbak;
+import com.citaq.util.WifiAdmin;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class NetWorkActivity extends Activity {
 	protected static final String TAG = "NetWorkActivity";

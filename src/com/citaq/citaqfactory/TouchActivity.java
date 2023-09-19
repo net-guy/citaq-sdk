@@ -1,19 +1,7 @@
 package com.citaq.citaqfactory;
 
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
-
-import com.citaq.util.AnimationUtil;
-import com.citaq.util.SoundManager;
-import com.citaq.view.PaintView;
-import com.citaq.view.PaintViewMy;
-
 import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -22,12 +10,17 @@ import android.view.GestureDetector.OnGestureListener;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnTouchListener;
-import android.view.Window;
 import android.view.View.OnClickListener;
-import android.view.WindowManager;
+import android.view.View.OnTouchListener;
 import android.widget.ImageView;
-import android.widget.Toast;
+
+import com.citaq.util.AnimationUtil;
+import com.citaq.util.SoundManager;
+import com.citaq.view.PaintViewMy;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 @SuppressLint("NewApi")
 public class TouchActivity extends FullActivity 

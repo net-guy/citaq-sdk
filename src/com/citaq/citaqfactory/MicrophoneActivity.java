@@ -1,8 +1,5 @@
 package com.citaq.citaqfactory;
 
-import java.io.File;
-import java.io.IOException;
-
 import android.app.Activity;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
@@ -15,7 +12,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
+
+import java.io.File;
+import java.io.IOException;
 
 public class MicrophoneActivity extends Activity {
 
@@ -46,7 +45,7 @@ public class MicrophoneActivity extends Activity {
 		outputFile = Environment.getExternalStorageDirectory()
 				.getAbsolutePath() + "/myrecording.3gp";
 
-		
+
 
 	}
 
@@ -106,13 +105,13 @@ public class MicrophoneActivity extends Activity {
 		bt_play.setEnabled(true);
 //		Toast.makeText(getApplicationContext(), "Audio recorded successfully",
 //				Toast.LENGTH_LONG).show();
-		
-		
+
+
 
 	}
 
 	public void play(View view) throws IllegalArgumentException,
-			SecurityException, IllegalStateException, IOException {
+			SecurityException, IllegalStateException {
 
 		mMediaPlayer = new MediaPlayer();
 		mMediaPlayer.setOnCompletionListener(new OnCompletionListener() {

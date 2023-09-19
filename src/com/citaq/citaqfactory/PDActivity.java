@@ -1,8 +1,5 @@
 package com.citaq.citaqfactory;
 
-import java.io.IOException;
-import java.security.InvalidParameterException;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,13 +7,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,6 +21,9 @@ import android.widget.Toast;
 import com.citaq.util.Command;
 import com.printer.util.CallbackUSB;
 import com.printer.util.USBConnectUtil;
+
+import java.io.IOException;
+import java.security.InvalidParameterException;
 
 public class PDActivity extends SerialPortActivity {
 	protected static final String TAG = "PDActivity";

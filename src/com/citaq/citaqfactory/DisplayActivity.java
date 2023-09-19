@@ -1,16 +1,13 @@
 package com.citaq.citaqfactory;
 
-import com.citaq.util.SoundManager;
-
-import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.GradientDrawable.Orientation;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.view.View.OnClickListener;
+
+import com.citaq.util.SoundManager;
 
 public  class DisplayActivity extends FullActivity implements OnClickListener {
 

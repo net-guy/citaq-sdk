@@ -1,25 +1,5 @@
 package com.citaq.citaqfactory;
 
-import java.io.File;
-import java.io.FileFilter;
-import java.io.IOException;
-import java.security.InvalidParameterException;
-import java.util.ArrayList;
-import java.util.List;
-
-import com.citaq.citaqfactory.SerialPortActivity.ReadThread;
-import com.citaq.util.CitaqBuildConfig;
-import com.citaq.util.Command;
-import com.citaq.util.HttpUtil;
-import com.citaq.util.SharePreferencesHelper;
-import com.citaq.util.SharePreferencesHelper.ContentValue;
-import com.citaq.util.SoundManager;
-import com.citaq.util.The3GUtils;
-import com.citaq.util.ThreadPoolManager;
-import com.printer.util.CallbackUSB;
-import com.printer.util.USBConnectUtil;
-
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,9 +13,26 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Toast;
 import android.widget.RadioGroup.OnCheckedChangeListener;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.citaq.util.CitaqBuildConfig;
+import com.citaq.util.Command;
+import com.citaq.util.HttpUtil;
+import com.citaq.util.SharePreferencesHelper;
+import com.citaq.util.SharePreferencesHelper.ContentValue;
+import com.citaq.util.SoundManager;
+import com.citaq.util.The3GUtils;
+import com.citaq.util.ThreadPoolManager;
+import com.printer.util.CallbackUSB;
+import com.printer.util.USBConnectUtil;
+
+import java.io.File;
+import java.io.IOException;
+import java.security.InvalidParameterException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class AgeingActivity extends SerialPortActivity {
 	protected static final String TAG = "AgeingActivity";

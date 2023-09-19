@@ -1,18 +1,15 @@
 package com.citaq.view;
 
-import com.citaq.citaqfactory.R;
-
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.citaq.citaqfactory.R;
 
 public class ImageAdapter extends BaseAdapter{  
      private LayoutInflater inflater;

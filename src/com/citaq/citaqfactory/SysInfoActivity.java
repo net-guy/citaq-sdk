@@ -1,10 +1,5 @@
 package com.citaq.citaqfactory;
 
-import java.io.File;
-import java.io.FileFilter;
-import java.lang.reflect.Method;
-import java.util.regex.Pattern;
-
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -27,6 +22,11 @@ import android.widget.TextView;
 import com.citaq.util.InterAddressUtil;
 import com.citaq.util.RAMandROMInfo;
 import com.citaq.util.ZXingUtil;
+
+import java.io.File;
+import java.io.FileFilter;
+import java.lang.reflect.Method;
+import java.util.regex.Pattern;
 
 public class SysInfoActivity extends Activity {
 	Context ctx;

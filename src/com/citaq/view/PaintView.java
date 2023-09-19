@@ -1,18 +1,5 @@
 package com.citaq.view;
 
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
-
-import com.citaq.citaqfactory.R;
-import com.citaq.util.MessageUtil;
-
-import android.util.AttributeSet;
-import android.util.DisplayMetrics;
-import android.view.View;
-import android.view.MotionEvent;
-import android.view.WindowManager;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -21,6 +8,19 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Paint.Style;
 import android.graphics.RectF;
+import android.util.AttributeSet;
+import android.util.DisplayMetrics;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.WindowManager;
+
+import com.citaq.citaqfactory.R;
+import com.citaq.util.MessageUtil;
+
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 
 public class PaintView extends View {
 

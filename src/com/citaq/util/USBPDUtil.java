@@ -1,10 +1,5 @@
 package com.citaq.util;
 
-import java.util.HashMap;
-
-import com.citaq.citaqfactory.R;
-
-
 import android.annotation.SuppressLint;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -14,8 +9,10 @@ import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbEndpoint;
 import android.hardware.usb.UsbInterface;
 import android.hardware.usb.UsbManager;
-import android.util.Log;
-import android.view.View;
+
+import com.citaq.citaqfactory.R;
+
+import java.util.HashMap;
 
 @SuppressLint("NewApi")
 public class USBPDUtil {

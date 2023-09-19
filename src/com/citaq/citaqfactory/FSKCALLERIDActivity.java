@@ -1,9 +1,6 @@
 package com.citaq.citaqfactory;
 
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.security.InvalidParameterException;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -15,6 +12,10 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.TextView;
 import android.widget.ToggleButton;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.security.InvalidParameterException;
 
 
 public class FSKCALLERIDActivity extends SerialPortActivity implements OnClickListener{

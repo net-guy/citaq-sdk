@@ -1,12 +1,12 @@
 package com.citaq.util;
 
-import java.util.HashMap;
-
-import com.citaq.citaqfactory.R;
-
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.SoundPool;
+
+import com.citaq.citaqfactory.R;
+
+import java.util.HashMap;
 
 public class SoundManager {
 	 

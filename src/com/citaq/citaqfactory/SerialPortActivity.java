@@ -16,17 +16,16 @@
 
 package com.citaq.citaqfactory;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.security.InvalidParameterException;
-
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Application;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.os.Bundle;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
 import android_serialport_api.SerialPort;
 
 public abstract class SerialPortActivity extends Activity {

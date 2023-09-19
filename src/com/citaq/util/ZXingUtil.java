@@ -1,7 +1,5 @@
 package com.citaq.util;
 
-import java.util.Hashtable;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Bitmap.Config;
@@ -19,6 +17,8 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
+
+import java.util.Hashtable;
 
 
 /*zxing的项目很庞大，主要的核心代码在core文件夹里面，也可以单独下载由这个文件夹打包而成的jar包，

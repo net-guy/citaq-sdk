@@ -1,7 +1,5 @@
 package com.citaq.util;
 
-import java.util.List;
-
 import android.content.Context;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiConfiguration;
@@ -9,6 +7,8 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.net.wifi.WifiManager.WifiLock;
 import android.util.Log;
+
+import java.util.List;
 
 public class WifiAdmin {  
     private static final String TAG = "WifiAdmin";

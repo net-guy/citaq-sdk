@@ -1,11 +1,6 @@
 package com.citaq.citaqfactory;
 
 
-import java.io.IOException;
-
-import com.citaq.util.LEDControl;
-import com.citaq.util.SoundPoolManager;
-
 import android.app.Activity;
 import android.content.Context;
 import android.media.AudioManager;
@@ -17,10 +12,13 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
-import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+
+import com.citaq.util.SoundPoolManager;
+
+import java.io.IOException;
 
 public class MusicPlayerActivity extends Activity {
 	

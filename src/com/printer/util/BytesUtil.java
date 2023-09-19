@@ -1,6 +1,9 @@
 package com.printer.util;
 
 
+import android.annotation.SuppressLint;
+import android.util.Base64;
+
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -13,9 +16,6 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import android.annotation.SuppressLint;
-import android.util.Base64;
 
 public class BytesUtil {
 

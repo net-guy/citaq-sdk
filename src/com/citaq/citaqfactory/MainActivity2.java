@@ -13,7 +13,7 @@ import android.widget.GridView;
 
 import com.citaq.util.CitaqBuildConfig;
 import com.citaq.util.SharePreferencesHelper;
-import com.citaq.view.*;
+import com.citaq.view.ImageAdapter;
 
 public class MainActivity2 extends Activity {
 	protected static final String Tag = "MainActivity2";

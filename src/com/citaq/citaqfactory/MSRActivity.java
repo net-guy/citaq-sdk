@@ -1,19 +1,16 @@
 package com.citaq.citaqfactory;
 
-import java.io.IOException;
-import java.security.InvalidParameterException;
-
-import com.citaq.citaqfactory.SerialPortActivity.ReadThread;
-import com.citaq.util.MainBoardUtil;
-
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.citaq.util.MainBoardUtil;
+
+import java.io.IOException;
+import java.security.InvalidParameterException;
 
 public class MSRActivity extends SerialPortActivity {
 	protected static final String TAG = "MSRActivity";
